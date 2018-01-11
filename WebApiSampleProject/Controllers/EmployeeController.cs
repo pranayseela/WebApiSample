@@ -13,23 +13,23 @@ namespace WebApiSampleProject.Controllers
         {
             new Employee()
                 {
-                    EmployeeId = 1, EmployeeName = "Mukesh Kumar", Address = "New Delhi", Department = "IT"
+                    EmployeeId = 1, EmployeeName = "Pranay", Address = "United States", Department = "IT"
                 },
                 new Employee()
                 {
-                    EmployeeId = 2, EmployeeName = "Banky Chamber", Address = "London", Department = "HR"
+                    EmployeeId = 2, EmployeeName = "Akshay", Address = "London", Department = "HR"
                 },
                 new Employee()
                 {
-                    EmployeeId = 3, EmployeeName = "Rahul Rathor", Address = "Laxmi Nagar", Department = "IT"
+                    EmployeeId = 3, EmployeeName = "Rajesh", Address = "Laxmi Nagar", Department = "IT"
                 },
                 new Employee()
                 {
-                    EmployeeId = 4, EmployeeName = "YaduVeer Singh", Address = "Goa", Department = "Sales"
+                    EmployeeId = 4, EmployeeName = "Ravi teja", Address = "Goa", Department = "Sales"
                 },
                 new Employee()
                 {
-                    EmployeeId = 5, EmployeeName = "Manish Sharma", Address = "New Delhi", Department = "HR"
+                    EmployeeId = 5, EmployeeName = "Uma Mahesh", Address = "New Delhi", Department = "HR"
                 },
         };
         public IList<Employee> GetAllEmployees()
